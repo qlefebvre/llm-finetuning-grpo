@@ -29,6 +29,32 @@ The goal is to demonstrate a lightweight and reproducible pipeline to make an LL
 
 ---
 
+## 🧩 Interactive Demo (Gradio)
+
+The fine-tuned model was tested with the dual Gradio interface from the RLHF lab.
+
+The interface compares the **base Qwen2.5-0.5B model** with the **DPO fine-tuned** version side-by-side,  
+allowing real-time evaluation of alignment quality.
+
+Below are screenshots showing the interface and example results.
+
+<p align="center">
+  <img src="results/screenshots/gradio_dual_chat_1.png" width="90%">
+  <br>
+  <em>Dual-Model Qwen Chat – comparing DPO-fine-tuned vs Base Model.</em>
+</p>
+
+<p align="center">
+  <img src="results/screenshots/gradio_dual_chat_2.png" width="90%">
+  <br>
+  <em>Settings and example prompts inside the Gradio interface.</em>
+</p>
+
+These screenshots were obtained by reloading the trained model inside the Gradio demo,  
+without re-running the full DPO training (see instructions in the notebook footer).
+
+---
+
 ## ⚙️ Installation & execution
 
 ```bash
